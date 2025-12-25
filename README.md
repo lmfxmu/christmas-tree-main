@@ -1,3 +1,22 @@
+# 本项目基于作者yftan的项目进行改进https://github.com/yftan/christmas-tree.git
+主要做了以下改动
+1.电脑没摄像头，手势识别关闭了改成按键触发，空格键从照片展示变换为圣诞树
+2.更新了圣诞树粒子效果
+3.增加了一个中文祝福粒子展示效果，按回车键可从圣诞树变换为文字
+
+存在的问题：
+1.高光粒子大量重叠时会发黑
+2.粒子展示效果有待改进
+
+简单效果展示：
+<img width="1739" height="757" alt="image" src="https://github.com/user-attachments/assets/2fc10091-d7e9-43b5-83f2-baaadd31c94f" />
+<img width="1783" height="766" alt="image" src="https://github.com/user-attachments/assets/0e9baa73-ea0b-4e04-a0e5-5b217799a8d6" />
+<img width="1662" height="751" alt="image" src="https://github.com/user-attachments/assets/1c35da4b-ba8f-4105-b611-a26521004870" />
+
+
+
+以下为原论文作者readme
+
 # 🎄 Christmas Memories Tree
 
 一个基于 React Three Fiber 的 3D 交互式圣诞树记忆展示项目，通过 AI 手势识别技术，让您的珍贵回忆在魔法般的 3D 空间中呈现。
